@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "build:fixed": "WITH_FIX=true vitepress build ."
+  },
+  "devDependencies": {
+    "vitepress": "^0.21.6"
+  }
+}
